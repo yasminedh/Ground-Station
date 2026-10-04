@@ -1,0 +1,19 @@
+[project]
+name = "ground-station"
+version = "0.1.0"
+description = "This project is for the handling of PUS TM/TC packets on the ground station"
+readme = "README.md"
+authors = [
+    { name = "Yasmine Dhouib", email = "yasminedhouib@keemail.me" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pyyaml>=6.0.3",
+]
+
+[project.scripts]
+ground-station = "ground_station:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"

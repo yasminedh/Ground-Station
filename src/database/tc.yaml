@@ -1,0 +1,4 @@
+TC_17_1_PING_OBC:
+    APID : 1
+    service: 17
+    subservice: 1 
