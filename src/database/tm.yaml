@@ -1,0 +1,4 @@
+TM_17_2_PING_OBC_RESPONSE:
+    APID : 1
+    service: 17
+    subservice: 2 

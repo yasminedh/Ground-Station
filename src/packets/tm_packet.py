@@ -1,4 +1,4 @@
-import field
+from packets import field
 class tm_packet:
     def __init__(self):
         self.tc_ccsds_header={

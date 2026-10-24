@@ -1,3 +1,3 @@
 from .tc_packet import tc_packet
-import tm_packet
-import field
+from .tm_packet import tm_packet
+from .field import field
